@@ -1,10 +1,9 @@
 import "./App.css";
+import FullScreenContainer from "./components/FullScreenContainer";
 
 function App() {
   return (
-    <>
-      <div>Alvin's website!</div>
-    </>
+    <FullScreenContainer className="bg-pikachu-yellow"></FullScreenContainer>
   );
 }
 
