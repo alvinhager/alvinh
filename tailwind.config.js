@@ -1,12 +1,7 @@
-/** @type {import('tailwindcss').Config} */
-// tailwind.config.js
-module.exports = {
+export default {
+  content: ["app/components/**/*.jsx"],
   theme: {
-    extend: {
-      colors: {
-        "pikachu-yellow": "#f4dc26",
-      },
-    },
+    extend: {},
   },
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  plugins: [],
 };
