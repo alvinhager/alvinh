@@ -1,6 +1,5 @@
 import { Outlet, createRootRoute } from "@tanstack/react-router";
 import FullScreenContainer from "../components/FullScreenContainer";
-import PageLayout from "../components/PageLayout";
 import AppNavigationMenu from "../components/AppNavigationMenu";
 import type React from "react";
 import type { HTMLAttributes, ReactNode } from "react";
