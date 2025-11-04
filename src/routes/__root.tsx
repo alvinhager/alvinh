@@ -11,9 +11,9 @@ export const Route = createRootRoute({
 function RootComponent() {
   return (
     <>
-      <ApplicationPage>
+      <AppPage>
         <Outlet />
-      </ApplicationPage>
+      </AppPage>
     </>
   );
 }
@@ -22,7 +22,7 @@ interface ApplicationPageProps extends HTMLAttributes<HTMLDivElement> {
   children?: ReactNode;
 }
 
-const ApplicationPage: React.FC<ApplicationPageProps> = ({ children }) => {
+const AppPage: React.FC<ApplicationPageProps> = ({ children }) => {
   return (
     <FullScreenContainer className="bg-custom-background">
       <header className="w-full flex-shrink-0 navigation-menu">
