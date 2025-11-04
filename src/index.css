@@ -1,11 +1,16 @@
 @import "tailwindcss";
-
 @plugin "tailwindcss-animate";
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
 
+@font-face {
+  font-family: Roboto;
+  src: url("./assets/fonts/Roboto/Roboto-Regular.ttf");
+}
+
 @theme inline {
+  --font-roboto: Roboto, "sans-serif";
   --color-eerie-black: #172121;
   --color-electric-indigo: #6200ee;
   --color-dark-indigo: #3700b3;

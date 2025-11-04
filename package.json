@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "packageManager": "pnpm@10.20.0",
   "homepage": "https://alvinhager.github.io/alvinh/",
   "scripts": {
     "dev": "vite",
@@ -17,6 +18,7 @@
   "dependencies": {
     "@radix-ui/react-navigation-menu": "^1.2.14",
     "@tailwindcss/vite": "^4.1.16",
+    "@tanstack/react-router": "^1.134.12",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.548.0",

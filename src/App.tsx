@@ -1,4 +1,4 @@
-import "./App.css";
+import { Link } from "@radix-ui/react-navigation-menu";
 import FullScreenContainer from "./components/FullScreenContainer";
 import PageLayout from "./components/PageLayout";
 import {
@@ -15,10 +15,9 @@ function App() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <NavigationMenuLink>Link</NavigationMenuLink>
-          </NavigationMenuContent>
+          <NavigationMenuLink className="px-3 py-3  rounded-md hover:bg-accent hover:text-accent-foreground font-">
+            Home
+          </NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>

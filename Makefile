@@ -13,3 +13,5 @@ deploy:
 PHONY: build
 build:
 	pnpm build
+
+PHONY: prepare_
